@@ -312,7 +312,7 @@ GameObject:
   - component: {fileID: 1143715917}
   - component: {fileID: 1143715916}
   m_Layer: 0
-  m_Name: Wheel Track 2
+  m_Name: Wheel Track (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -389,11 +389,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1143715915}
   m_LocalRotation: {x: -0.50000006, y: 0.49999988, z: -0.4999999, w: 0.50000024}
-  m_LocalPosition: {x: 0.94, y: 1.47, z: 18.624}
-  m_LocalScale: {x: 1, y: -0.14555, z: 6.163}
+  m_LocalPosition: {x: 1.6713724, y: 1.0128762, z: -10.803144}
+  m_LocalScale: {x: 1, y: -0.14555, z: 6.1630006}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_Father: {fileID: 1846541831}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: -90}
 --- !u!1 &1723480765
 GameObject:
@@ -485,11 +485,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1723480765}
   m_LocalRotation: {x: -0, y: -0, z: -0.7071065, w: 0.7071071}
-  m_LocalPosition: {x: 2.763, y: 2.825, z: 17.215}
+  m_LocalPosition: {x: 3.4943724, y: 2.367876, z: -12.212145}
   m_LocalScale: {x: 0.51515, y: 1.4814683, z: 0.51515}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_Father: {fileID: 1846541831}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
 --- !u!1 &1791960537
 GameObject:
@@ -579,10 +579,45 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1791960537}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.0180922, y: 1.8, z: 17.259405}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.7494645, y: 1.3428761, z: -12.16774}
   m_LocalScale: {x: 4.4449, y: 1, z: 2.5211}
   m_Children: []
+  m_Father: {fileID: 1846541831}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1846541830
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1846541831}
+  m_Layer: 0
+  m_Name: Tank
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1846541831
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1846541830}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.73137236, y: 0.45712388, z: 29.427145}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1791960541}
+  - {fileID: 1939141857}
+  - {fileID: 1723480769}
+  - {fileID: 1992962084}
+  - {fileID: 1143715919}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -675,12 +710,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1939141853}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.03, y: 2.601, z: 17.18}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.7613723, y: 2.143876, z: -12.247145}
   m_LocalScale: {x: 1.8085711, y: 0.7148759, z: 1.8085711}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_Father: {fileID: 1846541831}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1992962080
 GameObject:
@@ -695,7 +730,7 @@ GameObject:
   - component: {fileID: 1992962082}
   - component: {fileID: 1992962081}
   m_Layer: 0
-  m_Name: Wheel Track 1
+  m_Name: Wheel Track
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -772,9 +807,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1992962080}
   m_LocalRotation: {x: -0.50000006, y: 0.49999988, z: -0.4999999, w: 0.50000024}
-  m_LocalPosition: {x: 0.94, y: 1.47, z: 15.893}
-  m_LocalScale: {x: 1, y: -0.14555, z: 6.163}
+  m_LocalPosition: {x: 1.6713724, y: 1.0128762, z: -13.534145}
+  m_LocalScale: {x: 1, y: -0.14555, z: 6.1630006}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_Father: {fileID: 1846541831}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: -90}
